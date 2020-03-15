@@ -1,0 +1,42 @@
+/* miniprogram/pages/calendar.wxss */
+page{
+  height: 100%;
+}
+.calendar{ 
+  height: 100%; 
+  width :100%;
+}
+
+.month{ 
+  height: 10%; 
+  width :100%;
+  text-align: center;
+  margin: 1%;
+}
+
+.weekList{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: 10%; 
+  margin: 1%;
+}
+
+.sunday{height: 10%; width :14%;text-align: center}
+.monday{height: 10%; width :14%;text-align: center}
+.tuesday{height: 10%; width :14%;text-align: center}
+.wednesday{height: 10%; width :14%;text-align: center}
+.thursday{height: 10%; width :14%;text-align: center}
+.friday{height: 10%; width :14%;text-align: center}
+.saturday{height: 10%; width :14%;text-align: center}
+
+.date{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  margin: 1%;
+  flex-wrap:wrap;
+  height: 75%
+}
+
+.dateEach{height: 20%; width :14%;text-align: center;border: 5%;}

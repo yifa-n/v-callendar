@@ -1,0 +1,22 @@
+<!--miniprogram/pages/calendar.wxml-->
+<view class = "calendar">
+
+<view class = "month">{{year}}年{{month}}月</view>
+
+<view class = "weekList">	
+  <view class = "sunday">日</view>
+  <view class = "monday">一</view>
+  <view class = "tuesday">二</view>
+  <view class = "wednesday">三</view>
+  <view class = "thursday">四</view>
+  <view class = "friday">五</view>
+  <view class = "saturday">六</view>
+</view>
+
+<view class="date">
+  <view wx:for="{{dateArray}}" class = "dateEach">
+    {{item.message}}
+  </view>
+</view>
+
+</view>
